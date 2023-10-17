@@ -1,0 +1,52 @@
+/* login.css */
+
+body {
+  background-color: #ecf4f9; /* Light blue background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align container to the top */
+  height: 50vh;
+}
+
+.container {
+  width: 40%; /* Adjusted width */
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 50%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 1em;
+  color: #3a5f77; /* Dark blue text color */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.form-control {
+  width: 40%; /* Adjusted width */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto; /* Center the input box */
+}
+
+.btn-success {
+  background-color: #3a5f77; /* Dark blue button background */
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #2a4757; /* Slightly darker blue on hover */
+}
